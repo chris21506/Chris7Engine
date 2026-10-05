@@ -16,9 +16,6 @@
     <Filter Include="Archivos de encabezado\Engine">
       <UniqueIdentifier>{22bdcb80-22ec-477b-aa44-0762c7e36e83}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\Shaders">
-      <UniqueIdentifier>{b302ddae-3139-4881-88d0-2be00e9b8ae7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Engine.cpp">
@@ -38,10 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\Cube.hlsl">
-      <Filter>Archivos de origen\Shaders</Filter>
+      <Filter>Archivos de origen</Filter>
     </FxCompile>
     <FxCompile Include="..\bin\Shaders\Triangle.hlsl">
-      <Filter>Archivos de origen\Shaders</Filter>
+      <Filter>Archivos de origen</Filter>
     </FxCompile>
   </ItemGroup>
 </Project>

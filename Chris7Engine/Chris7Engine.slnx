@@ -1,1 +1,9 @@
-<Solution />
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Engine/Engine.vcxproj" Id="895955cc-9f0f-403c-bd3d-f81c5166e273" />
+  <Project Path="Sandbox/Sandbox.vcxproj" Id="c91a5db5-72a1-41cc-8dd9-7f554a721e01" />
+  <Project Path="ThirdParties/DirectXTK/DirectXTK_Desktop_2022.vcxproj" Id="e0b52ae7-e160-4d32-bf3f-910b785e5a8e" />
+</Solution>

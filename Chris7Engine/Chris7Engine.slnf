@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "Chris7Engine.slnx",
+    "projects": [
+      "Engine\\Engine.vcxproj",
+      "Sandbox\\Sandbox.vcxproj",
+      "ThirdParties\\DirectXTK\\DirectXTK_Desktop_2022.vcxproj"
+    ]
+  }
+}

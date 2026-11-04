@@ -16,11 +16,15 @@
     <Filter Include="Archivos de encabezado\Engine">
       <UniqueIdentifier>{22bdcb80-22ec-477b-aa44-0762c7e36e83}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Source\Engine.cpp">
-      <Filter>Archivos de recursos</Filter>
-    </ClCompile>
+    <Filter Include="Archivos de recursos\Engine">
+      <UniqueIdentifier>{758dd5b5-402f-4e0e-a6f9-87df17af6ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Rendering">
+      <UniqueIdentifier>{80bbebbb-484e-490a-bf91-90ac993cee59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Rendering">
+      <UniqueIdentifier>{321d1b30-070e-4c9e-ae26-999c2567f8f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Engine\API.h">
@@ -32,6 +36,24 @@
     <ClInclude Include="Include\Engine\Prerequisites.h">
       <Filter>Archivos de encabezado\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="Include\Rendering\Buffer.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Rendering\Device.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Rendering\DeviceContext.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Rendering\Texture2D.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Rendering\Swapchain.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\MeshComponent.h">
+      <Filter>Archivos de encabezado\Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\Cube.hlsl">
@@ -40,5 +62,22 @@
     <FxCompile Include="..\bin\Shaders\Triangle.hlsl">
       <Filter>Archivos de origen</Filter>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Archivos de recursos\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Buffer.cpp">
+      <Filter>Archivos de recursos\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Device.cpp">
+      <Filter>Archivos de recursos\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\DeviceContext.cpp">
+      <Filter>Archivos de recursos\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Texture2D.cpp">
+      <Filter>Archivos de recursos\Rendering</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
